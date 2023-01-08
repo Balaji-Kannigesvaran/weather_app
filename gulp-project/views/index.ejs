@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <script>
+    var counter = 0;
+// Function to increment count
+const handleIncrement = () => {
+  counter++;
+  // totalCount.innerHTML = counter;
+  console.log(counter);
+};
+
+  </script>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+      <h1>Hello This is a Weather app</h1>
+      <button onclick="handleIncrement()">Counter</button>
+    </body>
+</html>
