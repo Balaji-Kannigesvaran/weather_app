@@ -1,4 +1,4 @@
-const { src, dest } = require("gulp");
+const { src, dest, watch, parallel } = require("gulp");
 const sass = require('gulp-sass')(require('sass'));
 
 //cb()
@@ -13,4 +13,12 @@ function generateCSS(cb) {
 }
 
 exports.css = generateCSS;
+
+function watchFiles(cb) {
+  //  watch('views/**.ejs', generateHTML);
+    watch('sass/**.scss', generateCSS);
+  //  watch([ '**/*.js', '!node_modules/**'], parallel(runLinter, runTests));
+}
+
+exports.watch = watchFiles;
 

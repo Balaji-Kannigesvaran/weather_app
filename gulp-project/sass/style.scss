@@ -5,3 +5,13 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }
+
+h1{
+    text-align: center;
+}
+
+$bule-color: blue;
+
+h1{
+    color: $bule-color;
+}
