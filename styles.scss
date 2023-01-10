@@ -1,44 +1,91 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
-$bule-color: blue;
+$font-stack: Helvetica, sans-serif;
 
 /* css variables */
-$white: #FFFFFF;
+$mild-text-color: #ffffff99;
+$bright-text-color: #ffffff;
+$card-bg-color: #2e335a;
+$card-border-color: #ffffff;
 
-
-
-
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
+.container {
+  display: grid;
+  grid-template-columns: 164px 164px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  // Check gap
 }
 
-h1{
-    text-align: center;
-    font-size: 30px;
+.card-full-length {
+  grid-column: 1/3;
+  // Check Width
 }
-
-button{
-    color: green;
-    outline: tomato;
-}
-
-
-
-.card{
-color: $white;  
-padding: 1rem;
-background: #2E335A;
-border: 0.5px solid #FFFFFF;
-border-radius: 16px;
-}
-.card-header{
-  display: flex;
-}
-
-.card-body{
+.card {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  color: $bright-text-color;
+  padding: 1rem;
+  background: $card-bg-color;
+  border: 0.5px solid $card-border-color;
+  border-radius: 16px;
 }
 
+.card-header-icon {
+  height: 18px;
+  color: $bright-text-color;
+}
 
+.card2 {
+  position: relative;
+  color: $bright-text-color;
+  padding: 1rem;
+  background: $card-bg-color;
+}
+
+.card2-rectangle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 338px;
+  height: 185px;
+  left: 25px;
+  top: 25px;
+  background: linear-gradient(90.46deg, #5936b4 0.46%, #362a84 99.68%);
+}
+
+.card2-temperature {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.card2-max-min-temperature {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: $mild-text-color;
+}
+
+.card2-location {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.card2-details {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+//Rectangle cut & Positioning cloud, midrain and rectangle is leftover
