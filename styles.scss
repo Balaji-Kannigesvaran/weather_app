@@ -2,6 +2,12 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $bule-color: blue;
 
+/* css variables */
+$white: #FFFFFF;
+
+
+
+
 body {
   font: 100% $font-stack;
   color: $primary-color;
@@ -15,7 +21,24 @@ h1{
 button{
     color: green;
     outline: tomato;
+}
 
+
+
+.card{
+color: $white;  
+padding: 1rem;
+background: #2E335A;
+border: 0.5px solid #FFFFFF;
+border-radius: 16px;
+}
+.card-header{
+  display: flex;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
 }
 
 

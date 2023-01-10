@@ -1,3 +1,4 @@
+/* css variables */
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
@@ -11,4 +12,21 @@ h1 {
 button {
   color: green;
   outline: tomato;
+}
+
+.card {
+  color: #FFFFFF;
+  padding: 1rem;
+  background: #2E335A;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 16px;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
 }
