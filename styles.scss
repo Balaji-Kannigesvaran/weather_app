@@ -33,6 +33,10 @@ $card-border-color: #ffffff;
 .card-header-icon {
   height: 18px;
   color: $bright-text-color;
+  opacity:0.6;
+}
+.card-header-title{
+  opacity: 0.6;
 }
 
 .card2 {

@@ -25,6 +25,11 @@
 .card-header-icon {
   height: 18px;
   color: #ffffff;
+  opacity: 0.6;
+}
+
+.card-header-title {
+  opacity: 0.6;
 }
 
 .card2 {
