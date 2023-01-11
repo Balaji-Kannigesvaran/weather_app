@@ -10,7 +10,7 @@ const percentagetrue = '20%';
 // DOM settings like style, display, etc.
 const metadata = function (width, showstatus) {
     const progressbar = document.getElementById('progressbar');
-    const divtext = document.getElementById('divtext');
+    const divtext = document.getElementById('divtext')[0];
     // begin triggers for css transition
     //
     // change width value which 
