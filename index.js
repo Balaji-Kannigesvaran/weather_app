@@ -1,3 +1,5 @@
+
+
 var counter = 0;
 // Function to increment count
 const handleIncrement = () => {
@@ -5,3 +7,4 @@ const handleIncrement = () => {
   // totalCount.innerHTML = counter;
   console.log(counter);
 };
+

@@ -92,4 +92,40 @@ $card-border-color: #ffffff;
   line-height: 14px;
 }
 
+
+/* progress bar related Css */
+#progressbarcontainer{
+  position: relative;
+  margin: 2% 15%;
+  width: 70%;
+  height: 3px;
+  /*border: 1px solid; */
+  border-radius: 0;
+  background-color: rgba(216, 64, 210, 1);
+  padding: 1px;
+  box-shadow: 0 0 10px #153687;
+  cursor: pointer;
+}
+#divtext{
+  position: relative;
+  margin: 5% 15% 0% 15%;
+  width: 70%;
+  color: #000000;
+  -webkit-transition: color .5s; 
+  transition: color .5s;
+}
+#progressbar{
+  position: relative;
+  z-index: 1;
+  width: 0%;
+  left:0;
+  height: 100%;
+  background-color: rgba(64, 203, 216, 1);
+  -webkit-transition: width .5s; 
+  transition: width .5s;
+ /* box-shadow: 0 0 10px #153687;*/  
+}
+
+
+
 //Rectangle cut & Positioning cloud, midrain and rectangle is leftover
