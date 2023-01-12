@@ -106,7 +106,16 @@ box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
 font-size: 15px;
 line-height: 18px;
 }
+.container-air-quality{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
 
+.clock-container{
+  line-height: 64px;
+}
 
 /* progress bar related Css */
 #progressbarcontainer{

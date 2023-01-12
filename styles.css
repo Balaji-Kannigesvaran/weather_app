@@ -96,6 +96,17 @@ body {
   line-height: 18px;
 }
 
+.container-air-quality {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.clock-container {
+  line-height: 64px;
+}
+
 /* progress bar related Css */
 #progressbarcontainer {
   position: relative;
