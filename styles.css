@@ -27,6 +27,12 @@ body {
   border-radius: 16px;
 }
 
+.card-body-content {
+  font-weight: 400;
+  font-size: 30px;
+  height: 72px;
+}
+
 .card-header-icon {
   height: 18px;
   color: #ffffff;

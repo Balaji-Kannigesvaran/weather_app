@@ -38,6 +38,13 @@ box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
   border-radius: 16px;
 }
 
+.card-body-content{
+  font-weight: 400;
+  font-size: 30px;
+ // line-height: 36px;
+  height: 72px;
+}
+
 .card-header-icon {
   height: 18px;
   color: $bright-text-color;
@@ -116,6 +123,11 @@ line-height: 18px;
 .clock-container{
   line-height: 64px;
 }
+// #clock{
+// font-weight: 400;
+// font-size: 30px;
+// line-height: 36px;
+// }
 
 /* progress bar related Css */
 #progressbarcontainer{
