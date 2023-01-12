@@ -25,6 +25,11 @@
 .card-header-icon {
   height: 18px;
   color: #ffffff;
+  opacity: 0.6;
+}
+
+.card-header-title {
+  opacity: 0.6;
 }
 
 .card2 {
@@ -77,4 +82,39 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+}
+
+/* progress bar related Css */
+#progressbarcontainer {
+  position: relative;
+  margin: 2% 15%;
+  width: 70%;
+  height: 3px;
+  /*border: 1px solid; */
+  border-radius: 0;
+  background-color: rgb(216, 64, 210);
+  padding: 1px;
+  box-shadow: 0 0 10px #153687;
+  cursor: pointer;
+}
+
+#divtext {
+  position: relative;
+  margin: 5% 15% 0% 15%;
+  width: 70%;
+  color: #000000;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+#progressbar {
+  position: relative;
+  z-index: 1;
+  width: 0%;
+  left: 0;
+  height: 100%;
+  background-color: rgb(64, 203, 216);
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  /* box-shadow: 0 0 10px #153687;*/
 }
