@@ -8,7 +8,7 @@ $card-border-color: #ffffff;
 
 .container {
   display: grid;
-  grid-template-columns: 164px 164px;
+  grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
   gap: 25px;
@@ -105,6 +105,8 @@ $card-border-color: #ffffff;
   padding: 1px;
   box-shadow: 0 0 10px #153687;
   cursor: pointer;
+  /* border -radius */
+  border-radius: 8px;
 }
 #divtext{
   position: relative;
@@ -124,6 +126,8 @@ $card-border-color: #ffffff;
   -webkit-transition: width .5s; 
   transition: width .5s;
  /* box-shadow: 0 0 10px #153687;*/  
+ /* border radius */
+ border-radius: 8px;
 }
 
 
