@@ -1,4 +1,9 @@
 /* css variables */
+body {
+  background: linear-gradient(172.57deg, #2E335A 2.07%, #1C1B33 95.04%);
+  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto;
@@ -17,8 +22,8 @@
   gap: 16px;
   color: #ffffff;
   padding: 1rem;
-  background: #2e335a;
-  border: 0.5px solid #ffffff;
+  background: #2E335A;
+  border: 0.5px solid #628ad8;
   border-radius: 16px;
 }
 
@@ -82,6 +87,13 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+}
+
+.air-quality-description {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 /* progress bar related Css */

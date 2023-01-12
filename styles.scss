@@ -6,6 +6,11 @@ $bright-text-color: #ffffff;
 $card-bg-color: #2e335a;
 $card-border-color: #ffffff;
 
+body{
+background: linear-gradient(172.57deg, #2E335A 2.07%, #1C1B33 95.04%);
+box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto;
@@ -25,8 +30,11 @@ $card-border-color: #ffffff;
   gap: 16px;
   color: $bright-text-color;
   padding: 1rem;
-  background: $card-bg-color;
-  border: 0.5px solid $card-border-color;
+  // background: $card-bg-color;
+  // border: 0.5px solid $card-border-color;
+  // border-radius: 16px;
+  background: #2E335A;
+  border: 0.5px solid #628ad8;
   border-radius: 16px;
 }
 
@@ -90,6 +98,13 @@ $card-border-color: #ffffff;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+}
+.air-quality-description{
+  font-family: inter;
+ // font-style: oblique;
+  font-weight: 600;
+font-size: 15px;
+line-height: 18px;
 }
 
 
