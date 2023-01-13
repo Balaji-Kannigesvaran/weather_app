@@ -6,9 +6,14 @@ $bright-text-color: #ffffff;
 $card-bg-color: #2e335a;
 $card-border-color: #ffffff;
 
+body {
+  background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
+  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
+}
+
 .container {
   display: grid;
-  grid-template-columns: 164px 164px;
+  grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
   gap: 25px;
@@ -25,9 +30,19 @@ $card-border-color: #ffffff;
   gap: 16px;
   color: $bright-text-color;
   padding: 1rem;
-  background: $card-bg-color;
-  border: 0.5px solid $card-border-color;
+  // background: $card-bg-color;
+  // border: 0.5px solid $card-border-color;
+  // border-radius: 16px;
+  background: #2e335a;
+  border: 0.5px solid #628ad8;
   border-radius: 16px;
+}
+
+.card-body-content {
+  font-weight: 400;
+  font-size: 30px;
+  // line-height: 36px;
+  height: 72px;
 }
 
 .card-header-icon {
@@ -91,6 +106,28 @@ $card-border-color: #ffffff;
   font-size: 12px;
   line-height: 14px;
 }
+.air-quality-description {
+  font-family: inter;
+  // font-style: oblique;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+.container-air-quality {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.clock-container {
+  line-height: 64px;
+}
+// #clock{
+// font-weight: 400;
+// font-size: 30px;
+// line-height: 36px;
+// }
 
 /* progress bar related Css */
 #progressbarcontainer {
@@ -104,6 +141,8 @@ $card-border-color: #ffffff;
   padding: 1px;
   box-shadow: 0 0 10px #153687;
   cursor: pointer;
+  /* border -radius */
+  border-radius: 8px;
 }
 #divtext {
   position: relative;
@@ -123,6 +162,8 @@ $card-border-color: #ffffff;
   -webkit-transition: width 0.5s;
   transition: width 0.5s;
   /* box-shadow: 0 0 10px #153687;*/
+  /* border radius */
+  border-radius: 8px;
 }
 
 //Rectangle cut & Positioning cloud, midrain and rectangle is leftover
