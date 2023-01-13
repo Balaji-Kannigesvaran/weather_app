@@ -118,3 +118,16 @@
   transition: width 0.5s;
   /* box-shadow: 0 0 10px #153687;*/
 }
+
+.card2-block1 {
+  display: flex;
+}
+
+.card2-block2 {
+  display: flex;
+}
+
+.card2-sub-block {
+  display: flex;
+  flex-direction: column;
+}
