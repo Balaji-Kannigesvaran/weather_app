@@ -29,7 +29,7 @@ Reference :-
 1. [BEM - for html css](https://css-tricks.com/bem-101/)
 2. [BEM - for html sass](https://css-tricks.com/using-sass-control-scope-bem-naming/)
 
-```html
+```html naming convention
 <div class="component">
   <div class="component__child-element"></div>
 </div>
@@ -38,7 +38,7 @@ Reference :-
 </div>
 ```
 
-```css
+```css naming convention
 /* Block component */
 .btn {}
 /* Element that depends upon the block */ 
