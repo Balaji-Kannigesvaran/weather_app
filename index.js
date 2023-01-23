@@ -6,6 +6,30 @@ const handleIncrement = () => {
   console.log(counter);
 };
 
+$(document).ready(function () {
+  $('.show').on('click', function() {
+    $('.toggle').toggleClass('toggle--show');
+  });  
+});
+
+
+
+ function dropdown(){
+    div = document.getElementById("myDiv"); 
+   // div.style.display="none";
+    div.style.visibility="hidden";
+//   console.log("hello world");
+//   div = document.getElementById("myDiv");
+                
+//   div.style.top = parseInt(div.style.top) + 10 + "px";
+//   div.style.left = parseInt(div.style.left) + 10 + "px";
+ }
+document.addEventListener('click', function(e){
+  myDiv.style.setProperty('top', e.clientY + 'px');
+  myDiv.style.setProperty('left', e.clientX + 'px');
+});
+
+
 // Live Clock Js
 var clock = document.getElementById("clock");
 
@@ -37,3 +61,4 @@ function currentTime() {
 setInterval(function () {
   currentTime();
 }, 1000);
+
