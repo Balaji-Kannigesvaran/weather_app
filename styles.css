@@ -47,16 +47,7 @@ body .container .card .card-body .progressbar {
   width: 100%;
   -webkit-appearance: none;
   border-radius: 25px;
-  background-image: linear-gradient(
-    to left,
-    violet,
-    indigo,
-    blue,
-    green,
-    yellow,
-    orange,
-    red
-  );
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
 }
 body .container .card .card-body .progressbar::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -113,4 +104,144 @@ body .container .card .card-body .progressbar::-webkit-slider-thumb {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+}
+
+body {
+  background: linear-gradient(172.57deg, #2E335A 2.07%, #1C1B33 95.04%);
+  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
+}
+
+.Homepage_top_weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Weather_title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.Weather_degree {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 60px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.Weather_status {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Weather_status_H {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.Weather_status_L {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.forecast_labels {
+  display: flex;
+  justify-content: space-between;
+  background: green;
+  padding: 28px 36px;
+  border-radius: 45px 45px 0 0;
+  background: linear-gradient(172.57deg, #CBDDF6 2.07%, #CBDDF6 95.04%);
+  border-bottom: 2px solid #5189DC;
+}
+
+.forecast_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.Parent {
+  display: flex;
+  background: linear-gradient(172.57deg, #A7CAFF 82.07%, #A7CAFF 95.04%);
+  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
+  justify-content: center;
+}
+
+.Card_Hourly_ForeCast {
+  background: rgba(72, 49, 157, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px #FFFFFF;
+  border-radius: 30px;
+  width: 60px; /* explicit width */
+  margin: 5px;
+}
+
+.item_1 {
+  background: #48319D !important;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Inner_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Weather_item {
+  margin-bottom: 20px;
+}
+
+.weather_item_time {
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.weather_item_percentage {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #40CBD8;
+}
+
+.weather_item_degree {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
