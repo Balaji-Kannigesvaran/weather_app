@@ -17,11 +17,6 @@ Steps to run in local
 6. Run - gulp sync for starting a localhost 
 
 
-
-BEM Naming Convention
-
-
-
 # check out live 
 ### web Url : https://balaji-prakash-weather-app.netlify.app/
 
