@@ -14,7 +14,44 @@ Steps to run in local
 3. Run - npm install -g gulp-cli
 4. Run - npm install --save-dev gulp
 5. Run - npm install --save-dev gulp-sass
-6. RUn - gulp sync
+6. Run - gulp sync for starting a localhost 
+
+
+
+BEM Naming Convention
+
+
+
+# check out live 
+### web Url : https://balaji-prakash-weather-app.netlify.app/
+
+
+
+
+# Naming Conventions to follow for HTML, CSS - BEM Methodology:
+
+Reference :- 
+1. [BEM - for html css](https://css-tricks.com/bem-101/)
+2. [BEM - for html sass](https://css-tricks.com/using-sass-control-scope-bem-naming/)
+
+```html
+<div class="component">
+  <div class="component__child-element"></div>
+</div>
+<div class="component">
+  <div class="component__child-element"></div>
+</div>
+```
+
+```css
+/* Block component */
+.btn {}
+/* Element that depends upon the block */ 
+.btn__price {}
+/* Modifier that changes the style of the block */
+.btn--orange {} 
+.btn--big {}
+```
 
 
 
