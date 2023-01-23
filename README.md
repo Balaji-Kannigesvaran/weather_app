@@ -14,7 +14,7 @@ Steps to run in local
 3. Run - npm install -g gulp-cli
 4. Run - npm install --save-dev gulp
 5. Run - npm install --save-dev gulp-sass
-6. Run - gulp sync for starting a localhost 
+6. Run - gulp sync ( for starting a localhost ) 
 
 
 # check out live 
