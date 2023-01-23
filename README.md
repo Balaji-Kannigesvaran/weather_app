@@ -49,6 +49,8 @@ Reference :-
 .btn--big {}
 ```
 
+# Figma Design url
+### url: [Weather_app_url](https://www.figma.com/file/2KQelJwHpl6ER9N7r2puU8/Weather-App-Design-(Community)?node-id=106%3A136&t=h4y9T4ffmkBFchQK-0)
 
 
 
