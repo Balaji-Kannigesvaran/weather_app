@@ -245,3 +245,22 @@ body {
   line-height: 21px;
   color: #FFFFFF;
 }
+
+.house {
+  text-align: center;
+}
+
+.toggle {
+  opacity: 0;
+  visibility: hidden;
+  opacity: 500ms linear;
+  visibility: 0s linear 500ms;
+}
+
+.toggle--show {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  opacity: 500ms linear;
+  visibility: 0s linear 500ms;
+}
