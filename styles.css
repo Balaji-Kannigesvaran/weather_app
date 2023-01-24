@@ -264,3 +264,68 @@ body {
   opacity: 500ms linear;
   visibility: 0s linear 500ms;
 }
+
+.weather-component__search-bar {
+  outline: none;
+  padding: 0.3em 1em;
+  background: rgba(124, 124, 124, 0.168627451);
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+  color: white;
+  caret-color: white;
+  position: relative;
+}
+
+.weather-component__button {
+  margin: 0.5em;
+  /* margin-left: -3.2rem; */
+  margin-right: -3.2rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  /* icon css */
+  display: flex; /* icon centering */
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+}
+
+input {
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+  border-radius: 8px;
+  outline: none;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+input {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
