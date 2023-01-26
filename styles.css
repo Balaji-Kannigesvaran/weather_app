@@ -309,11 +309,6 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-button {
-  border-radius: 8px;
-  outline: none;
-}
-
 img, svg {
   vertical-align: middle;
 }

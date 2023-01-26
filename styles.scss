@@ -1,10 +1,16 @@
 $font-stack: Helvetica, sans-serif;
 
+
+
+
+
 /* css variables */
 $mild-text-color: #ffffff99;
 $bright-text-color: #ffffff;
 $card-bg-color: #2e335a;
 $card-border-color: #ffffff;
+
+
 body {
   background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
   .container {
@@ -130,8 +136,9 @@ body {
       line-height: 18px;
     }
 
+
     .card2-details {
-      font-family: "Lato";
+      font-family: "Lato";     
       font-style: normal;
       font-weight: 400;
       font-size: 12px;
@@ -352,10 +359,7 @@ line-height: 18px;
 color: rgba(255, 255, 255, 0.6);
 }
 
-button{
-border-radius: 8px;
-outline: none;
-}
+
 
 img , svg {
 vertical-align: middle;
@@ -372,3 +376,16 @@ text-align: center;
 :-moz-placeholder {
 text-align: center;
 }
+
+
+.fa-sun{
+  
+}
+
+.fa-moon{
+
+}
+
+
+
+
