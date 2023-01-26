@@ -107,7 +107,7 @@ body .container .card .card-body .progressbar::-webkit-slider-thumb {
 }
 
 body {
-  background: linear-gradient(172.57deg, #2E335A 2.07%, #1C1B33 95.04%);
+  background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
   box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
 }
 
@@ -124,7 +124,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Weather_degree {
@@ -133,7 +133,7 @@ body {
   font-weight: 275;
   font-size: 60px;
   line-height: 75px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Weather_status {
@@ -151,7 +151,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Weather_status_L {
@@ -160,7 +160,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .forecast_labels {
@@ -169,8 +169,8 @@ body {
   background: green;
   padding: 28px 36px;
   border-radius: 45px 45px 0 0;
-  background: linear-gradient(172.57deg, #CBDDF6 2.07%, #CBDDF6 95.04%);
-  border-bottom: 2px solid #5189DC;
+  background: linear-gradient(172.57deg, #cbddf6 2.07%, #cbddf6 95.04%);
+  border-bottom: 2px solid #5189dc;
 }
 
 .forecast_label {
@@ -185,7 +185,7 @@ body {
 
 .Parent {
   display: flex;
-  background: linear-gradient(172.57deg, #A7CAFF 82.07%, #A7CAFF 95.04%);
+  background: linear-gradient(172.57deg, #a7caff 82.07%, #a7caff 95.04%);
   box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
   justify-content: center;
 }
@@ -193,14 +193,14 @@ body {
 .Card_Hourly_ForeCast {
   background: rgba(72, 49, 157, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px #FFFFFF;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px #ffffff;
   border-radius: 30px;
   width: 60px; /* explicit width */
   margin: 5px;
 }
 
 .item_1 {
-  background: #48319D !important;
+  background: #48319d !important;
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
 }
@@ -224,7 +224,7 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .weather_item_percentage {
@@ -234,16 +234,16 @@ body {
   font-size: 13px;
   line-height: 16px;
   /* identical to box height */
-  color: #40CBD8;
+  color: #40cbd8;
 }
 
 .weather_item_degree {
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 17px;
+  font-style: normal;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .house {
@@ -309,12 +309,8 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-button {
-  border-radius: 8px;
-  outline: none;
-}
-
-img, svg {
+img,
+svg {
   vertical-align: middle;
 }
 
