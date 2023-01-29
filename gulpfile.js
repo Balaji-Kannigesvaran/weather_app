@@ -1,35 +1,30 @@
-const { src, dest, watch, parallel } = require("gulp");
-const sass = require('gulp-sass')(require('sass'));
+const { src, dest, watch } = require("gulp");
 
-//cb()
-
-//cb(new Error('Something bad has happened'));
-
+const sass = require("gulp-sass")(require("sass"));
 function generateCSS(cb) {
-    src('*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(dest('./'))
-        .pipe(sync.stream());
-    cb();
+  src("./Style/*.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(dest("./Style"))
+    .pipe(sync.stream());
+  cb();
 }
 exports.css = generateCSS;
 
 function watchFiles(cb) {
-    watch('*.scss', generateCSS);
+  watch("./Style/*.scss", generateCSS);
 }
-
 exports.watch = watchFiles;
 
 const sync = require("browser-sync").create();
 
 function browserSync(cb) {
-    sync.init({
-        server: {
-            baseDir: "."
-        }
-    });
-    watch('*.scss', generateCSS);
-    watch("*.html").on('change', sync.reload);
+  sync.init({
+    server: {
+      baseDir: ".",
+    },
+  });
+  watch("./Style/*.scss", generateCSS);
+  watch("./HTML/*.html").on("change", sync.reload);
 }
 
 exports.sync = browserSync;
