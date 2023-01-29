@@ -94,19 +94,11 @@ body {
   background: $card-bg-color;
 
   .card2-rectangle {
-    // position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: auto;
-    height: 185px;
-    left: 25px;
-    top: 25px;
-    // background: linear-gradient(90.46deg, #5936b4 0.46%, #362a84 99.68%);
-
-    border-top: 30px solid transparent;
-    border-left: 180px solid #66b2ff;
-    border-radius: 50px;
+    float: left;
+    width: 200px;
+    height: 100px;
+    shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 20px;
     .card2-temperature {
       font-family: "Livvic";
       font-style: normal;

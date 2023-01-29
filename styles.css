@@ -65,16 +65,11 @@ body .container .card .card-body .progressbar::-webkit-slider-thumb {
   background: #2e335a;
 }
 .card2 .card2-rectangle {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: auto;
-  height: 185px;
-  left: 25px;
-  top: 25px;
-  border-top: 30px solid transparent;
-  border-left: 180px solid #66b2ff;
-  border-radius: 50px;
+  float: left;
+  width: 200px;
+  height: 100px;
+  shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  border-radius: 20px;
 }
 .card2 .card2-rectangle .card2-temperature {
   font-family: "Livvic";
