@@ -1,9 +1,14 @@
 $font-stack: Helvetica, sans-serif;
 
+@import "./reset";
 @import "./mixins";
+@import "./variables";
 
+//Resetting the styles of the browser
+@include reset_style;
+
+//Page2 Styling
 body {
-  background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
   .container {
     display: grid;
     grid-template-columns: auto auto;
