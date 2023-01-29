@@ -2,12 +2,6 @@ $font-stack: Helvetica, sans-serif;
 
 @import "./mixins";
 
-/* css variables */
-$mild-text-color: #ffffff99;
-$bright-text-color: #ffffff;
-$card-bg-color: #2e335a;
-$card-border-color: #ffffff;
-
 body {
   background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
   .container {
