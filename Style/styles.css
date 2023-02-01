@@ -130,29 +130,36 @@ table {
   border-spacing: 0;
 }
 
+body {
+  padding: 50px;
+  background-color: #000000;
+}
 body .container {
   display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 25px;
-  border-radius: 8px;
-  background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
-  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
+  grid-template-columns: auto auto;
 }
 body .container .card-full-length {
   grid-column: 1/3;
 }
 body .container .card {
-  height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: auto;
+  align-items: auto;
   gap: 16px;
-  color: #ffffff;
-  padding: 1rem;
-  border-radius: 16px;
   background: #2e335a;
   border: 0.5px solid #628ad8;
+  border-radius: 16px;
+  padding: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 21px;
+  color: #ffffff;
 }
 body .container .card .card-header .card-header-icon {
   height: 18px;
@@ -227,11 +234,6 @@ body .container .card .card-body .progressbar::-webkit-slider-thumb {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-}
-
-body {
-  background: linear-gradient(172.57deg, #2e335a 2.07%, #1c1b33 95.04%);
-  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.25);
 }
 
 .Homepage_top_weather {
@@ -366,7 +368,6 @@ body {
   font-size: 17px;
   font-style: normal;
   line-height: 21px;
-  color: #ffffff;
 }
 
 .house {
