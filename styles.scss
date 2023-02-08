@@ -273,17 +273,11 @@ body {
   color: #40cbd8;
 }
 
-// .weather_item_degree{
-// font-family: 'Inter';
-// font-style: normal;
-// font-weight: 400;
-// font-size: 17px;
-// line-height: 21px;
-// color: #FFFFFF;
-// }
+
 .weather_item_degree {
   @include font_group("Inter", 400, 17px, normal, 21px, #ffffff);
 }
+
 
 .house {
   text-align: center;
