@@ -1,11 +1,11 @@
 $font-stack: Helvetica, sans-serif;
 
-@import "./reset";
+/* @import "./reset"; */
 @import "./mixins";
 @import "./variables";
 
 //Resetting the styles of the browser
-@include reset_style;
+/* @include reset_style; */
 
 //Page2 Styling
 body {
@@ -263,14 +263,6 @@ body {
   color: #40cbd8;
 }
 
-// .weather_item_degree{
-// font-family: 'Inter';
-// font-style: normal;
-// font-weight: 400;
-// font-size: 17px;
-// line-height: 21px;
-// color: #FFFFFF;
-// }
 .weather_item_degree {
   @include font_formatting("Inter", 400, 17px, normal, 21px);
 }
@@ -327,8 +319,6 @@ body {
   /* icon css */
   display: flex; /* icon centering */
   position: absolute;
-  top: 5px;
-  left: 5px;
   color: white;
 }
 
@@ -367,4 +357,14 @@ input {
 }
 
 .fa-moon {
+}
+
+// mobile popup
+
+.visibility {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
 }

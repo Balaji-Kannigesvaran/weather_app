@@ -6,29 +6,35 @@ const handleIncrement = () => {
   console.log(counter);
 };
 
-$(document).ready(function () {
-  $('.show').on('click', function() {
-    $('.toggle').toggleClass('toggle--show');
-  });  
-});
+// $(".toggle-btn").on("click", function () {
+//   console.log("clicked the button");
+//   $(".visibility").toggleClass(".hide");
+// });
 
+// mockapi call
 
+const AIR_KEY = "427f7ef80457a39a26407e17ef0d604339190901";
+const API_KEY = "20a36f8e1152244bbbd9ac296d3640f2";
+const lat = 44.34;
+const log = 10.99;
+var aqi = "";
+var sunrise = "";
 
- function dropdown(){
-    div = document.getElementById("myDiv"); 
-   // div.style.display="none";
-    div.style.visibility="hidden";
-//   console.log("hello world");
-//   div = document.getElementById("myDiv");
-                
-//   div.style.top = parseInt(div.style.top) + 10 + "px";
-//   div.style.left = parseInt(div.style.left) + 10 + "px";
- }
-document.addEventListener('click', function(e){
-  myDiv.style.setProperty('top', e.clientY + 'px');
-  myDiv.style.setProperty('left', e.clientX + 'px');
-});
+fetch(`https://api.waqi.info/feed/geo:${lat};${log}/?token=${AIR_KEY}`)
+  .then((res) => res.json())
+  .then((res) => {
+    aqi = res.data.aqi;
+    document.getElementById("aqi").innerText = aqi;
 
+    if (aqi >= 0 && aqi <= 50) {
+      document.querySelector("#air_quality_status").innerText = `Good`;
+    }
+
+    console.log("aqi is =" + aqi);
+    console.log(res);
+  });
+
+fetch  
 
 // Live Clock Js
 var clock = document.getElementById("clock");
@@ -61,4 +67,3 @@ function currentTime() {
 setInterval(function () {
   currentTime();
 }, 1000);
-
