@@ -1,11 +1,11 @@
 $font-stack: Helvetica, sans-serif;
 
-@import "./reset";
+/* @import "./reset"; */
 @import "./mixins";
 @import "./variables";
 
 //Resetting the styles of the browser
-@include reset_style;
+/* @include reset_style; */
 
 //Page2 Styling
 body {
@@ -319,8 +319,6 @@ body {
   /* icon css */
   display: flex; /* icon centering */
   position: absolute;
-  top: 5px;
-  left: 5px;
   color: white;
 }
 
